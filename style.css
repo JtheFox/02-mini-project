@@ -64,6 +64,12 @@ body > header {
     background-color: #242429;
     border-radius: 8px;
     user-select: none;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 
 .card pre code {
