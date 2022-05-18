@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    border: 4px dotted black;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
